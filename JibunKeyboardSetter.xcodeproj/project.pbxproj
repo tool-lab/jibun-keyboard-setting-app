@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		210E8DAD170BF067002C69B9 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 210E8DAB170BF067002C69B9 /* Localizable.strings */; };
+		213142B11708393F00DE90BA /* FootKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 213142B01708393F00DE90BA /* FootKeyboard.m */; };
+		213142B317083BBB00DE90BA /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 213142B217083BBB00DE90BA /* IOKit.framework */; };
+		216D17521CDEBB590077BBCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 216D17511CDEBB590077BBCC /* Images.xcassets */; };
 		21AA0D3717082803002CCA6F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21AA0D3617082803002CCA6F /* Cocoa.framework */; };
 		21AA0D4117082803002CCA6F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21AA0D3F17082803002CCA6F /* InfoPlist.strings */; };
 		21AA0D4317082803002CCA6F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21AA0D4217082803002CCA6F /* main.m */; };
@@ -16,19 +20,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21AA0D3317082803002CCA6F /* FootKeyboardSetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FootKeyboardSetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		210E8DA8170BEF0B002C69B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = ja; path = ja.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		210E8DA9170BEF0B002C69B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		210E8DAA170BEF0B002C69B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = ja; path = ja.lproj/Credits.rtf; sourceTree = "<group>"; };
+		210E8DAC170BF067002C69B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = FootKeyboardSetter/en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		210E8DAE170BF173002C69B9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		213142AF1708393F00DE90BA /* FootKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FootKeyboard.h; sourceTree = "<group>"; };
+		213142B01708393F00DE90BA /* FootKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FootKeyboard.m; sourceTree = "<group>"; };
+		213142B217083BBB00DE90BA /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		216D17511CDEBB590077BBCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = JibunKeyboardSetter/Images.xcassets; sourceTree = "<group>"; };
+		21AA0D3317082803002CCA6F /* JibunKeyboardSetter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JibunKeyboardSetter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21AA0D3617082803002CCA6F /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		21AA0D3917082803002CCA6F /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		21AA0D3A17082803002CCA6F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		21AA0D3B17082803002CCA6F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		21AA0D3E17082803002CCA6F /* FootKeyboardSetter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FootKeyboardSetter-Info.plist"; sourceTree = "<group>"; };
+		21AA0D3E17082803002CCA6F /* JibunKeyboardSetter-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JibunKeyboardSetter-Info.plist"; sourceTree = "<group>"; };
 		21AA0D4017082803002CCA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21AA0D4217082803002CCA6F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21AA0D4417082803002CCA6F /* FootKeyboardSetter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FootKeyboardSetter-Prefix.pch"; sourceTree = "<group>"; };
+		21AA0D4417082803002CCA6F /* JibunKeyboardSetter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JibunKeyboardSetter-Prefix.pch"; sourceTree = "<group>"; };
 		21AA0D4617082803002CCA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
 		21AA0D4817082803002CCA6F /* FootKeyboardAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FootKeyboardAppDelegate.h; sourceTree = "<group>"; };
 		21AA0D4917082803002CCA6F /* FootKeyboardAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FootKeyboardAppDelegate.m; sourceTree = "<group>"; };
 		21AA0D4C17082803002CCA6F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		21AC70251747A9EC0012646F /* FootKeyboardSetter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FootKeyboardSetter.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				213142B317083BBB00DE90BA /* IOKit.framework in Frameworks */,
 				21AA0D3717082803002CCA6F /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +61,7 @@
 		21AA0D2A17082803002CCA6F = {
 			isa = PBXGroup;
 			children = (
+				216D17511CDEBB590077BBCC /* Images.xcassets */,
 				21AA0D3C17082803002CCA6F /* FootKeyboardSetter */,
 				21AA0D3517082803002CCA6F /* Frameworks */,
 				21AA0D3417082803002CCA6F /* Products */,
@@ -55,7 +71,7 @@
 		21AA0D3417082803002CCA6F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				21AA0D3317082803002CCA6F /* FootKeyboardSetter.app */,
+				21AA0D3317082803002CCA6F /* JibunKeyboardSetter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,6 +79,7 @@
 		21AA0D3517082803002CCA6F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				213142B217083BBB00DE90BA /* IOKit.framework */,
 				21AA0D3617082803002CCA6F /* Cocoa.framework */,
 				21AA0D3817082803002CCA6F /* Other Frameworks */,
 			);
@@ -82,8 +99,11 @@
 		21AA0D3C17082803002CCA6F /* FootKeyboardSetter */ = {
 			isa = PBXGroup;
 			children = (
+				21AC70251747A9EC0012646F /* FootKeyboardSetter.entitlements */,
 				21AA0D4817082803002CCA6F /* FootKeyboardAppDelegate.h */,
 				21AA0D4917082803002CCA6F /* FootKeyboardAppDelegate.m */,
+				213142AF1708393F00DE90BA /* FootKeyboard.h */,
+				213142B01708393F00DE90BA /* FootKeyboard.m */,
 				21AA0D4B17082803002CCA6F /* MainMenu.xib */,
 				21AA0D3D17082803002CCA6F /* Supporting Files */,
 			);
@@ -93,10 +113,11 @@
 		21AA0D3D17082803002CCA6F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				21AA0D3E17082803002CCA6F /* FootKeyboardSetter-Info.plist */,
+				210E8DAB170BF067002C69B9 /* Localizable.strings */,
+				21AA0D3E17082803002CCA6F /* JibunKeyboardSetter-Info.plist */,
 				21AA0D3F17082803002CCA6F /* InfoPlist.strings */,
 				21AA0D4217082803002CCA6F /* main.m */,
-				21AA0D4417082803002CCA6F /* FootKeyboardSetter-Prefix.pch */,
+				21AA0D4417082803002CCA6F /* JibunKeyboardSetter-Prefix.pch */,
 				21AA0D4517082803002CCA6F /* Credits.rtf */,
 			);
 			name = "Supporting Files";
@@ -105,9 +126,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		21AA0D3217082803002CCA6F /* FootKeyboardSetter */ = {
+		21AA0D3217082803002CCA6F /* JibunKeyboardSetter */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 21AA0D5017082803002CCA6F /* Build configuration list for PBXNativeTarget "FootKeyboardSetter" */;
+			buildConfigurationList = 21AA0D5017082803002CCA6F /* Build configuration list for PBXNativeTarget "JibunKeyboardSetter" */;
 			buildPhases = (
 				21AA0D2F17082803002CCA6F /* Sources */,
 				21AA0D3017082803002CCA6F /* Frameworks */,
@@ -117,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = FootKeyboardSetter;
+			name = JibunKeyboardSetter;
 			productName = FootKeyboardSetter;
-			productReference = 21AA0D3317082803002CCA6F /* FootKeyboardSetter.app */;
+			productReference = 21AA0D3317082803002CCA6F /* JibunKeyboardSetter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -129,22 +150,28 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FootKeyboard;
-				LastUpgradeCheck = 0460;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Tool Labs";
+				TargetAttributes = {
+					21AA0D3217082803002CCA6F = {
+						DevelopmentTeam = GSK8DZQ6U9;
+					};
+				};
 			};
-			buildConfigurationList = 21AA0D2E17082803002CCA6F /* Build configuration list for PBXProject "FootKeyboardSetter" */;
+			buildConfigurationList = 21AA0D2E17082803002CCA6F /* Build configuration list for PBXProject "JibunKeyboardSetter" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 			);
 			mainGroup = 21AA0D2A17082803002CCA6F;
 			productRefGroup = 21AA0D3417082803002CCA6F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				21AA0D3217082803002CCA6F /* FootKeyboardSetter */,
+				21AA0D3217082803002CCA6F /* JibunKeyboardSetter */,
 			);
 		};
 /* End PBXProject section */
@@ -155,8 +182,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				21AA0D4117082803002CCA6F /* InfoPlist.strings in Resources */,
+				216D17521CDEBB590077BBCC /* Images.xcassets in Resources */,
 				21AA0D4717082803002CCA6F /* Credits.rtf in Resources */,
 				21AA0D4D17082803002CCA6F /* MainMenu.xib in Resources */,
+				210E8DAD170BF067002C69B9 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,16 +198,28 @@
 			files = (
 				21AA0D4317082803002CCA6F /* main.m in Sources */,
 				21AA0D4A17082803002CCA6F /* FootKeyboardAppDelegate.m in Sources */,
+				213142B11708393F00DE90BA /* FootKeyboard.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		210E8DAB170BF067002C69B9 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				210E8DAC170BF067002C69B9 /* en */,
+				210E8DAE170BF173002C69B9 /* ja */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		21AA0D3F17082803002CCA6F /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				21AA0D4017082803002CCA6F /* en */,
+				210E8DA9170BEF0B002C69B9 /* ja */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -187,6 +228,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				21AA0D4617082803002CCA6F /* en */,
+				210E8DAA170BEF0B002C69B9 /* ja */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -195,6 +237,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				21AA0D4C17082803002CCA6F /* en */,
+				210E8DA8170BEF0B002C69B9 /* ja */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
@@ -206,7 +249,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -215,7 +257,9 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -239,7 +283,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
@@ -248,6 +291,7 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -264,11 +308,16 @@
 		21AA0D5117082803002CCA6F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FootKeyboardSetter/FootKeyboardSetter-Prefix.pch";
-				INFOPLIST_FILE = "FootKeyboardSetter/FootKeyboardSetter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FootKeyboardSetter/JibunKeyboardSetter-Prefix.pch";
+				INFOPLIST_FILE = "FootKeyboardSetter/JibunKeyboardSetter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tool-lab.jibunkeyboard";
+				PRODUCT_NAME = JibunKeyboardSetter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +325,16 @@
 		21AA0D5217082803002CCA6F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "Developer ID Application";
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "FootKeyboardSetter/FootKeyboardSetter-Prefix.pch";
-				INFOPLIST_FILE = "FootKeyboardSetter/FootKeyboardSetter-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "FootKeyboardSetter/JibunKeyboardSetter-Prefix.pch";
+				INFOPLIST_FILE = "FootKeyboardSetter/JibunKeyboardSetter-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tool-lab.jibunkeyboard";
+				PRODUCT_NAME = JibunKeyboardSetter;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		21AA0D2E17082803002CCA6F /* Build configuration list for PBXProject "FootKeyboardSetter" */ = {
+		21AA0D2E17082803002CCA6F /* Build configuration list for PBXProject "JibunKeyboardSetter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AA0D4E17082803002CCA6F /* Debug */,
@@ -297,13 +351,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		21AA0D5017082803002CCA6F /* Build configuration list for PBXNativeTarget "FootKeyboardSetter" */ = {
+		21AA0D5017082803002CCA6F /* Build configuration list for PBXNativeTarget "JibunKeyboardSetter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				21AA0D5117082803002CCA6F /* Debug */,
 				21AA0D5217082803002CCA6F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

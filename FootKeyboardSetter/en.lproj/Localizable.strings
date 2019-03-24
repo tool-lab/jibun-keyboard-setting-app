@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  FootKeyboardSetter
+
+  Created by Tool Labs on 2013/04/03.
+  Copyright 2013 Tool Labs
+*/
+
+"DEVICE_FOUND" = "My Keyboard is connected!";
+"DEVICE_REMOVED" = "Device not found.";
+
